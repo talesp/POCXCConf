@@ -5,3 +5,12 @@
 //  Created by Tales Pinheiro De Andrade on 01/10/16.
 //  Copyright © 2016 Tales Pinheiro De Andrade. All rights reserved.
 //
+
+PRODUCT_BUNDLE_IDENTIFIER=com.talesp.POCXCConf
+///How to get this data:
+// Download you mobile provision file from Apple Developer Member center. Open the .mobileprovision file with a text editor (it's a XML file) and search for the TeamIdentifier key and TeamName key
+// Format: 'iPhone Developer: TeamName (TeamIdentifier)'
+CODE_SIGN_IDENTITY=iPhone Developer: Tales P De Andrade (HD5D5529VJ)
+// In the .mobileprovision file, search for the UUID key
+// You can also use the ProvisionQL (https://github.com/ealeksandrov/ProvisionQL) or Provisioning (https://github.com/chockenberry/Provisioning) Quick Look plugin
+PROVISIONING_PROFILE[sdk=*]=d4642e78-f68c-4a25-b4b4-34fce3d167d8
